@@ -1,0 +1,14 @@
+.env
+node_modules/
+dist/
+logs/
+coverage/
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.pem
+*.key
+*.crt
+*.pfx
+*.cer
