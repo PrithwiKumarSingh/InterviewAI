@@ -13,7 +13,7 @@ const AuthModel = ({onClose}) => {
         }
     },[userData,onClose])
   return (
-    <div className='fixed inset-0 z-[999] flex item-center justify-center bg-black/10 backdrop-blur-sm px-4'>
+    <div className='fixed inset-0 z-999 flex item-center justify-center bg-black/10 backdrop-blur-sm px-4'>
         <div className='relative w-full max-w-md'>
             <motion.button
             initial={{opacity:0}}
