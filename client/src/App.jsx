@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import {Routes, Route} from "react-router-dom"
 import { useDispatch } from 'react-redux'
 import {setUserData} from './redux/userSlice.js'
+import InterviewPage from './pages/InterviewPage'
 import axios from 'axios'
 import Auth from "./pages/Auth"
 import Home from "./pages/Home"
@@ -28,8 +29,10 @@ const App = () => {
   
   return (
     <Routes>
+      
       <Route path="/" element={<Home/>} />
       <Route path="/auth" element={<Auth/>} />
+      <Route path="/interview" element={<InterviewPage/>}/>
     </Routes>
   )
 }
